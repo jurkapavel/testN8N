@@ -1,0 +1,155 @@
+{
+    "host_info":
+    [
+        {
+            "host_id": 67,
+            "ip_addr": "172.28.0.47",
+            "name": null,
+            "mac_addrs":
+            [
+                "00:00:00:00:00:00",
+                "00:09:00:00:00:0e",
+                "64:d1:54:c2:6b:f8"
+            ]
+        }
+    ],
+    "assigned_tags":
+    [
+        {
+            "tag": "role_client_db_postgresql"
+        },
+        {
+            "tag": "role_client_web"
+        },
+        {
+            "tag": "role_server_fileserver_nfs"
+        },
+        {
+            "tag": "role_server_ra_ssh"
+        },
+        {
+            "tag": "role_server_web"
+        }
+    ],
+    "localyprovidedservices":
+    [
+        {
+            "dst_port": 22,
+            "service": null,
+            "data_in": 13415106,
+            "data_out": 3054836
+        },
+        {
+            "dst_port": 443,
+            "service": "HTTPS",
+            "data_in": 64106352,
+            "data_out": 492029
+        },
+        {
+            "dst_port": 443,
+            "service": null,
+            "data_in": 8.3336827E+9,
+            "data_out": 70035984
+        },
+        {
+            "dst_port": 2049,
+            "service": "NFS",
+            "data_in": 4892,
+            "data_out": 2980
+        }
+    ],
+    "usedremoteservices":
+    [
+        {
+            "dst_port": 53,
+            "service": null,
+            "data_in": 15421254,
+            "data_out": 7549985
+        },
+        {
+            "dst_port": 80,
+            "service": null,
+            "data_in": 2.0547744E+9,
+            "data_out": 624
+        },
+        {
+            "dst_port": 443,
+            "service": null,
+            "data_in": 1.036976E+10,
+            "data_out": 0
+        },
+        {
+            "dst_port": 870,
+            "service": null,
+            "data_in": 50176,
+            "data_out": 31136
+        },
+        {
+            "dst_port": 910,
+            "service": null,
+            "data_in": 100,
+            "data_out": 60
+        },
+        {
+            "dst_port": 919,
+            "service": null,
+            "data_in": 840,
+            "data_out": 420
+        },
+        {
+            "dst_port": 948,
+            "service": null,
+            "data_in": 45468,
+            "data_out": 28352
+        },
+        {
+            "dst_port": 951,
+            "service": null,
+            "data_in": 34224,
+            "data_out": 21576
+        },
+        {
+            "dst_port": 1002,
+            "service": null,
+            "data_in": 28964,
+            "data_out": 15204
+        },
+        {
+            "dst_port": 2222,
+            "service": null,
+            "data_in": 2.9110106E+9,
+            "data_out": 6.957821E+7
+        },
+        {
+            "dst_port": 5000,
+            "service": null,
+            "data_in": 60,
+            "data_out": 0
+        },
+        {
+            "dst_port": 5432,
+            "service": null,
+            "data_in": 3209,
+            "data_out": 3209
+        }
+    ],
+    "applicationprotocols":
+    [
+        {
+            "attribute": "HTTPSAlgorithm",
+            "value": "TLS13"
+        },
+        {
+            "attribute": "HTTPSCipherSuite",
+            "value": "TLS_AES_256_GCM_SHA384"
+        },
+        {
+            "attribute": "HTTPSRJa3Str",
+            "value": "771,4866,43-51"
+        },
+        {
+            "attribute": "HTTPSRVersion",
+            "value": "TLS 1.3"
+        }
+    ]
+}
